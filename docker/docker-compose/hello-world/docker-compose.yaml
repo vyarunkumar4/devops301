@@ -1,0 +1,2 @@
+my-test:
+  image: myapache-v2:v2

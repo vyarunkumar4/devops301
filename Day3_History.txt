@@ -273,3 +273,116 @@
   273  ls
   274  history 
   275  history > Day3_History.txt
+  276  git add . ; git commit -m "DockerFile" ; git push origin master 
+  277  history 
+  278  cd ls
+  279  ls
+  280  cd - 
+  281  cd dockerfiles/myapache/
+  282  ls
+  283  cat Dockerfile 
+  284  docker ps 
+  285  curl localhost:30081/hello.html
+  286  docker run -d -p 30082:80 myapache-v2:v1 
+  287  docker run -d -p 30083:80 myapache-v2:v1 
+  288  docker run -d -p 30084:80 myapache-v2:v1 
+  289  docker run -d -p 30085:80 myapache-v2:v1 
+  290  docker ps 
+  291  ls
+  292  vim index.html
+  293  l
+  294  ls
+  295  vim Dockerfile 
+  296  docker build -t myapache-v2:v2 .
+  297  docker run -d -p 30070:80 myapache-v2:v2
+  298  docker ps 
+  299  ls
+  300  cd ../../../
+  301  git add . ; git commit -m "DockerFile" ; git push origin master 
+  302  ls
+  303  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  304  sudo chmod +x /usr/local/bin/docker-compose
+  305  docker-compose version 
+  306  docker-compose -version 
+  307  s
+  308  ls
+  309  cd docker/
+  310  ls
+  311  cd devops-mind-21092019/
+  312  ls
+  313  cd docker/
+  314  ls
+  315  cd dockerfiles/
+  316  ls
+  317  cd ..
+  318  ls
+  319  mkdir docker-compose
+  320  ls
+  321  cd docker-compose/
+  322  ls
+  323  mkdir  hello-world
+  324  cd hello-world/
+  325  ls
+  326  vim docker-compose.yaml
+  327  docker images 
+  328  vim docker-compose.yaml
+  329  docker-compose up -d 
+  330  docker ps 
+  331  docker kill $(docker ps -qa)
+  332  docker ps 
+  333  docker-compose -version 
+  334  docker-compose -version
+  335  docker ps 
+  336  ls
+  337  cd devops-mind-21092019/docker/docker-compose/
+  338  ls
+  339  cd hello-world/
+  340  ls
+  341  docker-compose ps 
+  342  vi docker-compose.yaml 
+  343  docker-compose up 
+  344  docker-compose up -d 
+  345  curl -L https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+  346  docker-compose -version 
+  347  docker-compose --help
+  348  free -m 
+  349  df -h 
+  350  cd devops-mind-21092019/docker/docker-compose/hello-world/
+  351  ls
+  352  docker-compose up -d 
+  353  docker-compose ps 
+  354  docker ps 
+  355  ls
+  356  cd ..
+  357  ls
+  358  mkdir myapache
+  359  ls
+  360  cp -rf ../dockerfiles/myapache/* .
+  361  ls
+  362  mv Dockerfile index.html myapache/
+  363  ls
+  364  cd myapache/
+  365  ls
+  366  vim docker-compose.yaml
+  367  docker images 
+  368  docker ps 
+  369  docker-compose up -d build 
+  370  docker-compose up -d  
+  371  docker ps 
+  372  curl localhost:30091
+  373  ls
+  374  vim index.html 
+  375  cat index.html 
+  376  docker-compose up -d --build 
+  377  docker-compose up -d 
+  378  curl localhost:30091
+  379  docker-compose up -d -build
+  380  docker-compose up -d --build
+  381  curl localhost:30091
+  382  vi index.html 
+  383  docker-compose up -d --build
+  384  curl localhost:30091
+  385  ls
+  386  cd ..
+  387  ls
+  388  history > Day3_History.txt 
