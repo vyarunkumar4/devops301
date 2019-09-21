@@ -386,3 +386,439 @@
   386  cd ..
   387  ls
   388  history > Day3_History.txt 
+    1  apt-get update ; 
+    2  apt-get install default-jdk
+    3  java -version 
+    4  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war 
+    5  ls
+    6  java -jar  jenkins.war --httpPort=30000 & 
+    7  cat /root/.jenkins/secrets/initialAdminPassword
+    8  history 
+    9  ls
+   10  history 
+   11  iptables -L
+   12  ls
+   13  wget https://api.bintray.com/content/jfrog/artifactory/jfrog-artifactory-oss-$latest.zip;bt_package=jfrog-artifactory-oss-zip
+   14  wget https://api.bintray.com/content/jfrog/artifactory/jfrog-artifactory-oss-$latest.zip
+   15  wget https://api.bintray.com/content/jfrog/artifactory/jfrog-artifactory-oss-6.12.2.zip 
+   16  wget -k https://api.bintray.com/content/jfrog/artifactory/jfrog-artifactory-oss-6.12.2.zip 
+   17  wget --help 
+   18  wget --https-only https://api.bintray.com/content/jfrog/artifactory/jfrog-artifactory-oss-6.12.2.zip 
+   19  wget --no-check-certificate https://api.bintray.com/content/jfrog/a*rtifactory/jfrog-artifactory-oss-6.12.2.zip 
+   20  wget --no-check-certificate https://api.bintray.com/content/jfrog/artifactory/jfrog-artifactory-oss-6.12.2.zip 
+   21  wget  https://akamai.bintray.com/06/06b4b05ce206c6b4a1dd5212b5007cd5074431efb4a0f1bbc998e6c975cf4379?__gda__=exp=1568883646~hmac=7effc9e1ca49919c6bc6ddd1657208e0a6ebbbd2bb7fa73f52ecb35b21ab0315&response-content-disposition=attachment%3Bfilename%3D%22jfrog-artifactory-oss-6.12.2.deb%22&response-content-type=application%2Foctet-stream&requestInfo=U2FsdGVkX19gFxeK1Z3TyVlqfJ3RxOlbxbCEbx050enAd7C2_lyS2StKq2XcaBk4c0EWi8jI5SuQi7kiuFa3skzMnpxOoMCUXv03prdsL9lb3VO6BB2w7tGbihXJERrddQjY6jq3nuxxUXJ9kPgaZ2jWFD8RMiKw0VDsQdEMNY3eeL-WgPWrSDz1MJSYDqLi&response-X-Checksum-Sha1=1142057e530db9072cac5c7a7c9f7f5759768c63&response-X-Checksum-Sha2=06b4b05ce206c6b4a1dd5212b5007cd5074431efb4a0f1bbc998e6c975cf4379
+   22  ls
+   23  file 06b4b05ce206c6b4a1dd5212b5007cd5074431efb4a0f1bbc998e6c975cf4379\?__gda__\=exp\=1568883646~hmac\=7effc9e1ca49919c6bc6ddd1657208e0a6ebbbd2bb7fa73f52ecb35b21ab0315 
+   24  rm 06b4b05ce206c6b4a1dd5212b5007cd5074431efb4a0f1bbc998e6c975cf4379\?__gda__\=exp\=1568883646~hmac\=7effc9e1ca49919c6bc6ddd1657208e0a6ebbbd2bb7fa73f52ecb35b21ab0315 
+   25  wget  https://akamai.bintray.com/6e/6e6c653a6053e74daa19f0812675fb739e9db6b2cffc77856965c4e178e1307a?__gda__=exp=1568883578~hmac=65b738b13143fc6d02b2ddddb90cf9d40dc9b2e2c6314c5ffc263735eb66b610&response-content-disposition=attachment%3Bfilename%3D%22jfrog-artifactory-oss-6.12.2.zip%22&response-content-type=application%2Foctet-stream&requestInfo=U2FsdGVkX1_LSY4GmTVoizZynX1EwR9xwSCX7iJYajTnoA01n-4JbfV--uftcDkeis4nPkNIgWZ2Z9F6X2s4Wj-zvVGxsyNEmbQFtQhhDPBzab_A5S_UgjVKe9vmk8LEbIcje2NwPbP-sJALQwiMRv6wIr8x4RnspldyZ1WotIo&response-X-Checksum-Sha1=786a806d4e3b0eef1c6cee64616ed5aa1f45f60d&response-X-Checksum-Sha2=6e6c653a6053e74daa19f0812675fb739e9db6b2cffc77856965c4e178e1307a jfrog.zip 
+   26  ls
+   27  file 6e6c653a6053e74daa19f0812675fb739e9db6b2cffc77856965c4e178e1307a\?__gda__\=exp\=1568883578~hmac\=65b738b13143fc6d02b2ddddb90cf9d40dc9b2e2c6314c5ffc263735eb66b610 
+   28  mv 6e6c653a6053e74daa19f0812675fb739e9db6b2cffc77856965c4e178e1307a\?__gda__\=exp\=1568883578~hmac\=65b738b13143fc6d02b2ddddb90cf9d40dc9b2e2c6314c5ffc263735eb66b610 jfrog.zip 
+   29  ls
+   30  apt-get install unzip -y 
+   31  apt-get install zip -y 
+   32  unzip jfrog.zip 
+   33  ls
+   34  cd artifactory-oss-6.12.2/
+   35  ls
+   36  cd bin/
+   37  ls
+   38  ./artifactory.sh 
+   39  pwd
+   40  ./artifactory.sh &
+   41  ls
+   42  vim artifactory.sh 
+   43  ls
+   44  vi artifactory.default 
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd tomcat/
+   49  ls
+   50  cd conf/
+   51  ls
+   52  vim catalina.properties 
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd ..
+   57  ls
+   58  cat replicator/
+   59  ls
+   60  cd tomcat/
+   61  ls
+   62  cd conf/
+   63  ls
+   64  grep -i "8081" catalina.properties 
+   65  grep -i "8081" *
+   66  ls
+   67  cd ..
+   68  ls
+   69  cd ..
+   70  ls
+   71  cd 
+   72  wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.9.1.zip
+   73  ls
+   74  unzip sonarqube-7.9.1.zip 
+   75  ls
+   76  cd sonarqube-7.9.1/
+   77  ls
+   78  cd bin/
+   79  ls
+   80  cd linux-x86-64/
+   81  ls
+   82  ./sonar.sh & 
+   83  ./sonar.sh start & 
+   84  ps -ef 
+   85  ps -ef | grep -i sonar 
+   86  netstat -tulnp 
+   87  ./sonar.sh status 
+   88  ./sonar.sh start 
+   89  ./sonar.sh status 
+   90  ls
+   91  cd .. 
+   92  ls
+   93  cd ..
+   94  ls
+   95  cd logs/
+   96  ls
+   97  less sonar.log 
+   98  apt-get update 
+   99  apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+  100  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  101  add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  102     $(lsb_release -cs) \
+  103     stable"
+  104  apt-get update 
+  105  apt-get install docker-ce docker-ce-cli containerd.io -y 
+  106  docker version 
+  107  history 
+  108  docker run busybox echo "Welcome to Docker"
+  109  docker images 
+  110  docker run busybox echo "Welcome to Docker - 2"
+  111  docker run busybox echo "Welcome to Docker - 4"
+  112  docker ps 
+  113  docker ps -a
+  114  docker run -itd busybox
+  115  docker ps 
+  116  docker kill 3bc55c3e3ead        
+  117  docker ps 
+  118  docker run -it --name myapp-01 busybox 
+  119  docker ps 
+  120  docker ps -a
+  121  docker run -itd --name myapp-02 busybox 
+  122  docker run -itd --name myapp-03 busybox 
+  123  docker run -itd --name ppe-03 busybox 
+  124  docker run -itd --name ppe-02 busybox 
+  125  docker run -itd --name ppe-01 busybox 
+  126  docker run -itd  busybox 
+  127  docker ps 
+  128  docker attach myapp-02
+  129  docker ps 
+  130  docker ps -a
+  131  docker start myapp-02
+  132  docker ps 
+  133  docker attach myapp-02
+  134  docker ps 
+  135  docker start myapp-02
+  136  docker ps 
+  137  docker attach myapp-02
+  138  docker ps 
+  139  docker attach myapp-02
+  140  docker ps 
+  141  docker attach myapp-02
+  142  docker ps 
+  143  docker kill myapp-02
+  144  docker ps 
+  145  docker ps -a 
+  146  docker rm myapp-02
+  147  docker ps -a 
+  148  docker start myapp-02
+  149  history 
+  150  docker ps -a
+  151  docker ps -aq
+  152  docker kill $(docker ps -aq)
+  153  docker rm $(docker ps -aq)
+  154  docker ps 
+  155  docker ps -a
+  156  docker run -it ubuntu:16.04
+  157  docker ps 
+  158  docker inspect 97ea6396560b        
+  159  curl 172.17.0.2
+  160  docker ps 
+  161  docker attach 97ea6396560b        
+  162  curl 172.17.0.2
+  163  curl 172.17.0.2/info.html
+  164  docker ps 
+  165  ip addr 
+  166  docker ps 
+  167  docker run -it -p 30080:80 ubuntu  
+  168  docker ps 
+  169  netstat -tulnp
+  170  docker sp 
+  171  docker ps
+  172  docker attach 88f2e31509d0        
+  173  docker ps 
+  174  iptables -L
+  175  history 
+  176  docker ps 
+  177  docker attach 88f2e31509d0        
+  178  docker ps 
+  179  curl localhost:30080
+  180  docker ps 
+  181  docker images 
+  182  docker commit -p -m "Installed apache" 88f2e31509d0        myapache:v1
+  183  docker images 
+  184  docker ps 
+  185  docker run -itd myapache:v1
+  186  docker ps 
+  187  docker inspect 35833d91c7e4        
+  188  curl 172.17.0.4
+  189  docker ps 
+  190  curl 172.17.0.4/info.htm;
+  191  curl 172.17.0.4/info.htm
+  192  curl 172.17.0.4/info.html
+  193  docker attach 88f2e31509d0        
+  194  docker commit -p -m "Installed apache" 88f2e31509d0        myapache:v2
+  195  docker run -itd myapache:v2
+  196  docker images
+  197  docker ps 
+  198  curl 172.17.0.5
+  199  curl 172.17.0.5/info.html
+  200  history 
+  201  docker pull amitvashist7/myapache:v1
+  202  docker pull amitvashist7/testapache:v5
+  203  docker pull amitvashist7/myapache-acc:v3
+  204  docker pull amitvashist7/myapache-acc:v2
+  205  docker pull amitvashist7/myapache-acc:v1
+  206  ls
+  207  docker images 
+  208  curl 172.17.0.5/info.html
+  209  docker tag myapache:v2 amitvashist7/myapache-acc:v4
+  210  docker images 
+  211  docker login 
+  212  docker push amitvashist7/myapache-acc:v4
+  213  docker tag myapache:v2 amitvashist7/myapache-acc:latest
+  214  docker push amitvashist7/myapache-acc:latest
+  215  docker images 
+  216  docker push myapache:v2
+  217  ls
+  218  docker ps -aq
+  219  docker kill $(docker ps -aq)
+  220  docker ps -a
+  221  docker rm $(docker ps -aq)
+  222  docker ps -a
+  223  docker ps 
+  224  docker images 
+  225  docker images -q
+  226  docker rmi $(docker images -q)
+  227  docker images 
+  228  docker rmi $(docker images -q) --force 
+  229  docker images 
+  230  docker logout 
+  231  ls
+  232  docker ps 
+  233  docker ps -a
+  234  docker images 
+  235  docker run -itd amitvashist7/myapache-acc
+  236  docker ps 
+  237  curl 172.17.0.2
+  238  curl 172.17.0.2/info.html
+  239  docker images 
+  240  docker pull amitvashist7/myapache-acc:v4
+  241  docker images 
+  242  docker pull amitvashist7/myapache-acc:v3
+  243  docker images 
+  244  history 
+  245  which  apache2ctl 
+  246  CLT + P+Q
+  247  init 0 
+  248  ls
+  249  git  clone https://github.com/amitvashist7/devops-mind-21092019.git
+  250  ls
+  251  cd devops-mind-21092019/
+  252  ls
+  253  mkdir docker/dockerfiles/myapache -p 
+  254  ls
+  255  cd docker/dockerfiles/myapache/
+  256  ls
+  257  vim Dockerfile
+  258  ls
+  259  docker build -t myapache-v2:v1 .
+  260  docker images
+  261  docker run -d -P myapache-v2:v1 
+  262  docker ps 
+  263  docker run -d -p 30081:80 myapache-v2:v1 
+  264  docker ps 
+  265  ls
+  266  cd ..
+  267  ls
+  268  cd ..
+  269  ls
+  270  cd .
+  271  ls
+  272  cd ..
+  273  ls
+  274  history 
+  275  history > Day3_History.txt
+  276  git add . ; git commit -m "DockerFile" ; git push origin master 
+  277  history 
+  278  cd ls
+  279  ls
+  280  cd - 
+  281  cd dockerfiles/myapache/
+  282  ls
+  283  cat Dockerfile 
+  284  docker ps 
+  285  curl localhost:30081/hello.html
+  286  docker run -d -p 30082:80 myapache-v2:v1 
+  287  docker run -d -p 30083:80 myapache-v2:v1 
+  288  docker run -d -p 30084:80 myapache-v2:v1 
+  289  docker run -d -p 30085:80 myapache-v2:v1 
+  290  docker ps 
+  291  ls
+  292  vim index.html
+  293  l
+  294  ls
+  295  vim Dockerfile 
+  296  docker build -t myapache-v2:v2 .
+  297  docker run -d -p 30070:80 myapache-v2:v2
+  298  docker ps 
+  299  ls
+  300  cd ../../../
+  301  git add . ; git commit -m "DockerFile" ; git push origin master 
+  302  ls
+  303  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  304  sudo chmod +x /usr/local/bin/docker-compose
+  305  docker-compose version 
+  306  docker-compose -version 
+  307  s
+  308  ls
+  309  cd docker/
+  310  ls
+  311  cd devops-mind-21092019/
+  312  ls
+  313  cd docker/
+  314  ls
+  315  cd dockerfiles/
+  316  ls
+  317  cd ..
+  318  ls
+  319  mkdir docker-compose
+  320  ls
+  321  cd docker-compose/
+  322  ls
+  323  mkdir  hello-world
+  324  cd hello-world/
+  325  ls
+  326  vim docker-compose.yaml
+  327  docker images 
+  328  vim docker-compose.yaml
+  329  docker-compose up -d 
+  330  docker ps 
+  331  docker kill $(docker ps -qa)
+  332  docker ps 
+  333  docker-compose -version 
+  334  docker-compose -version
+  335  docker ps 
+  336  ls
+  337  cd devops-mind-21092019/docker/docker-compose/
+  338  ls
+  339  cd hello-world/
+  340  ls
+  341  docker-compose ps 
+  342  vi docker-compose.yaml 
+  343  docker-compose up 
+  344  docker-compose up -d 
+  345  ps -ef | grep -i docker-compose
+  346  kill -9 10205  10206 
+  347  ps -ef | grep -i docker-compose
+  348  docker images 
+  349  docker ps 
+  350  ps -ef | grep -i docker-compose
+  351  kill -9 11679  
+  352  ps -ef | grep -i docker-compose
+  353  kill -9 11680     
+  354  ps -ef | grep -i docker-compose
+  355  docker ps 
+  356  docker kill 62efa7d05fac        
+  357  docker ps 
+  358  apt-get install ansible -y 
+  359  ansible -version 
+  360  ansible --version 
+  361  ssh 10.128.0.3
+  362  ssh 10.128.0.7
+  363  ls
+  364  cd devops-mind-21092019/
+  365  ls
+  366  mkdir ansible/demo01
+  367  mkdir ansible/demo01 -p
+  368  cd ansible/demo01
+  369  ls
+  370  vim inventory
+  371  cat inventory 
+  372  ansible all -i inventory -m ping -k 
+  373  apt-get install sshpass -y 
+  374  ansible all -i inventory -m ping -k 
+  375  ip addr 
+  376  vi inventory 
+  377  ansible all -i inventory -m ping -k 
+  378  ls
+  379  cat inventory 
+  380  vi /etc/ssh/sshd_config 
+  381  ls
+  382  cd ..
+  383  ls
+  384  mkdir  demo02
+  385  ls
+  386  cd demo02/
+  387  ls
+  388  vim webserver.yaml
+  389  ansible-doc -l 
+  390  ansible-doc apt 
+  391  ls
+  392  cat webserver.yaml 
+  393  ls
+  394  cp -rf ../demo01/inventory . 
+  395  ls
+  396  ansible-playbook -i inventory webserver.yaml -k 
+  397  cd ..
+  398  ls
+  399  cd ..
+  400  ls
+  401  git add . ; git commit -m "DockerFile" ; git push origin master 
+  402  history 
+  403  ls
+  404  cd ansible/
+  405  ls
+  406  cp -rf demo02 demo03
+  407  ls
+  408  cd demo03/
+  409  ls
+  410  mkdir templates
+  411  cd templates/
+  412  ls
+  413  vi info.html
+  414  ls
+  415  cd ..
+  416  ls
+  417  vim webserver.yaml 
+  418  ansible-playbook -i inventory webserver.yaml -k 
+  419  vim templates/info.html 
+  420  ansible-playbook -i inventory webserver.yaml -k 
+  421  cd ..
+  422  cd 
+  423  ls
+  424  git clone https://github.com/amitvashist7/jenkins2-course-spring-petclinic.git
+  425  ls
+  426  cp -rf jenkins2-course-spring-petclinic devops-mind-21092019/petclinic
+  427  ls
+  428  cd devops-mind-21092019/
+  429  ls
+  430  cd petclinic/
+  431  ls
+  432  cd ../../
+  433  ls
+  434  cd  devops-mind-21092019/
+  435  ls
+  436  history >> Day3_History.txt 
