@@ -19,7 +19,7 @@
     copy: src=templates/jenkins.html dest={{doc_root}}/jenkins.html
 
   - name: Start Java Service 
-    apt: name=openjdk-8-jdk state=started
+    apt: name=openjdk-8-jdk state=present
 
   
   - name: Deploy Custom Info file
